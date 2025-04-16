@@ -1,0 +1,54 @@
++---------------------------+
+|      User Interface       |
+|   (Streamlit Frontend)    |
++------------+--------------+
+             |
+             v
++---------------------------+
+|   Session State Manager   |
+| - Chat Histories          |
+| - Evaluation States       |
++------------+--------------+
+             |
+             v
++---------------------------+
+|   User Input Processing   |
+| - Language Selection      |
+| - Chat Management         |
++------------+--------------+
+             |
+             v
++---------------------------+
+|     RAG Chain Selector    |
+| - Alarm-related Chain     |
+| - General Conversation    |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  Retrieval-Augmented Gen  |
+| - FAISS Vector Store      |
+| - HuggingFace Embeddings  |
+| - PDF Document Loader     |
++------------+--------------+
+             |
+             v
++---------------------------+
+|   Gemini LLM Integration  |
+| - Google Generative AI    |
+| - Prompt Templates        |
++------------+--------------+
+             |
+             v
++---------------------------+
+|  Response Generation &    |
+|        Display            |
++------------+--------------+
+             |
+             v
++---------------------------+
+|   Evaluation Module       |
+| - RAGAS Metrics           |
+| - Ground Truth Comparison |
+| - Dashboard Visualization |
++---------------------------+
